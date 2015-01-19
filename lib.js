@@ -44,7 +44,7 @@ lib.generateHyperLink = function(url, text) {
 }
 
 lib.generateFormTextField = function(name) {
-    return "<input type=\"text\" name=\"" + name + "\">";
+    return  "<input type=\"text\" name=\"" + name + "\">";
 }
 
 lib.generateFormTextFieldWithLabel = function(name, label) {
